@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "test_node = mypkg.my_node:main", #make executable here "executable_name = pkg.node_name:main"
             "draw_circle = mypkg.draw_circle:main",
-            "pose_subscriber = mypkg.pose_subscriber:main"
+            "pose_subscriber = mypkg.pose_subscriber:main",
+            "turtle_controller = mypkg.turtle_controller:main"
         ],
     },
 )
