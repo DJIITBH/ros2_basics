@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = mypkg.my_node:main" #make executable here "executable_name = pkg.node_name:main"
+            "test_node = mypkg.my_node:main", #make executable here "executable_name = pkg.node_name:main"
+            "draw_circle = mypkg.draw_circle:main",
+            "pose_subscriber = mypkg.pose_subscriber:main"
         ],
     },
 )
