@@ -1,0 +1,5 @@
+string current_status
+string operational_state
+---
+int32 new_task
+bool status

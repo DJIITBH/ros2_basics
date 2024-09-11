@@ -1,4 +1,7 @@
-bool req
+int32 id
+float32 crop_yield
+string operational_status
 ---
 
-builtin_interfaces/Time res
+string harvesting_schedule
+bool status
